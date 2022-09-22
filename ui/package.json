@@ -1,0 +1,26 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && npm run updatelua",
+    "build-report": "vue-cli-service build --report",
+    "updatelua": "node build/index.js"
+  },
+  "dependencies": {
+    "@mdi/js": "^6.6.96",
+    "core-js": "^3.8.3",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "mdi-vue": "^3.0.13",
+    "vue": "^3.2.13",
+    "vue-draggable-next": "^2.1.1",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
